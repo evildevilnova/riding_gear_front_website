@@ -1,0 +1,36 @@
+.popular{
+    background-color: #4074EF;
+    width: 6.5rem;
+    border-radius: 2rem;
+    color: white;
+}
+.font_text{
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.products .product-slider .slide .content .price{
+    color:var(--orange);
+    font-weight: bolder;
+    font-size: 2.5rem;
+    padding:.5rem 0;
+}
+
+.content .price{
+    color:var(--orange);
+    font-weight: bolder;
+    font-size: 1.5rem;
+    padding:.5rem 0;
+}
+
+.content .price span{
+    color:black;
+    font-weight: normal;
+    font-size: 1rem;
+    text-decoration: line-through;
+}
+
+.content .stars i{
+    font-size: 0.9rem;
+    color:orange;
+}

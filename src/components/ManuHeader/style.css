@@ -1,0 +1,67 @@
+.manuHeader{
+    text-align: center;
+    /* margin-top: 0.rem; */
+    width: 90%;
+    /* height: 30pt; */
+    padding: 0 0.5rem;
+    margin-top: 0.5rem;
+    background-color: #fff;
+    border: #D0D0D0 0.8px solid;
+    /* box-shadow: 1px 1px 1px 1px  rgb(179, 178, 178); */
+}
+.manuHeader ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.manuHeader > ul {
+    /* display: flex; */
+    /* padding: 0 50px; */
+    /* border-bottom: #000 2px solid; */
+    position: relative;
+}
+.manuHeader ul li{
+border-bottom: #CCCCCC 0.03rem solid;
+
+}
+.manuHeader > ul > li > a{
+    color: #000;
+    display: block;
+    line-height: 40px;
+    cursor: pointer;
+    padding: 0 20px;
+    font-size: 14px;
+}
+.manuHeader > ul > li > a:hover{
+    color: #4074EF;
+}
+.manuHeader > ul > li > ul{
+    position: absolute;
+    background-color: #fff;
+    left: 0%;
+    right: 0;
+    display: none;
+    border: 1px solid #cccc;
+    z-index: 200;
+}
+.manuHeader > ul > li:hover ul{
+    display: block;
+}
+.manuHeader > ul > li > ul > li{
+    margin: 0 20px;
+    min-width: 150px;
+}
+.manuHeader > ul > li > ul > li{
+    float: left;
+}
+.manuHeader > ul > li > ul > li > a{
+    font-weight: bold;
+    display: block;
+}
+.manuHeader > ul > li > ul > li a{
+    padding: 5px 0;
+    display: block;
+    font-size: 15px;
+    text-decoration: none;
+    color: #000;
+}
